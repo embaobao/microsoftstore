@@ -1,0 +1,138 @@
+@charset "UTF-8";
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+fieldset,
+legend,
+option,
+th,
+td,
+th,
+input,
+hr,
+button,
+ol,
+li,
+ul,
+dl,
+dd {
+  margin: 0;
+  padding: 0; }
+
+/*清除默认间距 性能高与 *{margin: 0;padding: 0;  }*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+  font-weight: normal; }
+
+/* 清除加粗效果 */
+li {
+  list-style: none; }
+
+/*清除列表图标*/
+a {
+  text-decoration: none;
+  color: #666; }
+
+/*清除a标签下划线 字体颜色*/
+i,
+em {
+  font-style: normal; }
+
+/* 清除倾斜效果 */
+img {
+  border: none;
+  display: block; }
+
+/*清除IE A 标签下图片有默认边框 和转化元素类型清除图片之间的间隙*/
+body {
+  font-family: "微软雅黑'"; }
+
+/*清除有默认行高 字体 字体颜色*/
+table {
+  border-spacing: 0px;
+  /*调整相同的单元格之间的边距*/ }
+
+a:hover {
+  text-decoration: underline; }
+
+/* 标签下划线 */
+input {
+  outline: none; }
+
+/* 清除input 浏览器的有的蓝色有边框的效果 */
+.bg0 {
+  background-color: #007bff; }
+
+.bg1 {
+  background-color: #dc3545; }
+
+.bg2 {
+  background-color: #6610f2; }
+
+.bg3 {
+  background-color: #e83e8c; }
+
+.bg4 {
+  background-color: #6f42c1; }
+
+.bg5 {
+  background-color: #22e; }
+
+.bg6 {
+  background-color: #fd7e14; }
+
+.bg7 {
+  background-color: #ffc107; }
+
+.bg8 {
+  background-color: #28a745; }
+
+.bg9 {
+  background-color: #20c997; }
+
+.bg10 {
+  background-color: #17a2b8; }
+
+.bg11 {
+  background-color: #ffcc01; }
+
+.bg12 {
+  background-color: #99ffff; }
+
+.center {
+  width: 800px;
+  margin: 0 auto; }
+
+.l {
+  float: left; }
+
+.r {
+  float: right; }
+
+.middle:after {
+  content: "EMB";
+  height: 100%;
+  width: 0px;
+  visibility: hidden;
+  display: inline-block;
+  vertical-align: middle; }
+
+.hide {
+  display: none; }
+
+.margin-0 {
+  margin: 0px !important; }
+
+.clear {
+  clear: both; }

@@ -43,7 +43,7 @@ function scripts() {
 
 function htmls() {
     // 找html文件
-    return gulp.src( path.html.src)
+    return gulp.src(path.html.src)
         // .pipe(plugins.utf8Convert({
         //     encNotMatchHandle: function (notify) {
         //         console.log(notify + " 编码不正确，大人请速速修改！");
@@ -70,6 +70,12 @@ function htmls() {
         .pipe(plugins.connect.reload());
 }
 
+
+function jsons() {
+    return gulp.src(path.json.src)
+        .pipe(gulp.dest(path.json.dest))
+}
+
 function watch() {
     //查看源文件的变化， 并作出相应 执行 
     //查看 style 源文件的变化 并执行styles
@@ -78,6 +84,8 @@ function watch() {
     gulp.watch(path.script.src, scripts);
     //查看 html 源文件的变化 htmls
     gulp.watch(path.html.src, htmls);
+
+    gulp.watch(path.json.src, jsons);
 }
 
 function setup() {
@@ -98,7 +106,7 @@ function setup() {
 }
 
 
-let build = gulp.series(styles, scripts, htmls, gulp.parallel(setup, watch));
+let build = gulp.series(styles, jsons, scripts, htmls, gulp.parallel(setup, watch));
 
 
 

@@ -1,0 +1,136 @@
+.vector-icon {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #0067b8;
+    img {
+        border: 0px;
+    }
+}
+
+// 注册页面样式
+.msSignin {
+    color: #333;
+    min-height: 600px;
+
+    .container {
+        width: 90%;
+        max-width: 1180px;
+        margin: 0 auto;
+    }
+
+    .content {
+        width: 590px;
+        height: 308px;
+        margin: 30px auto;
+        background-color: #fff;
+        padding: 36px 0 0;
+
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 24px;
+
+        line-height: 30px;
+    }
+
+    .con {
+        font-size: 0;
+        margin: 26px 30px 30px;
+        height: 185px;
+
+        .msAccount {
+            width: 50%;
+            border-right: 1px solid #cccccc;
+            height: 100%;
+            display: inline-block;
+            vertical-align: top;
+
+            p {
+                font-size: 14px;
+                color: #666;
+            }
+            
+
+            p.p1 {
+                margin-bottom: 10px;
+            }
+
+            p.p2 {
+                line-height: 22px;
+                margin-right: 15px;
+            }
+
+            .btn {
+                display: inline-block;
+                width: 240px;
+                height: 45px;
+                background-color: #2571ec;
+                color: #fff;
+                font-size: 18px;
+                text-align: center;
+                text-decoration: none;
+                margin-bottom: 22px;
+                line-height: 45px;
+
+                .icon {
+                    width: 112px;
+                    height: 22px;
+                    margin-right: 12px;
+                    vertical-align: middle;
+                }
+
+                span {
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+
+        }
+
+        .otherAccout {
+            // width: 50%;
+            display: inline-block;
+            vertical-align: top;
+            padding: 0 25px;
+
+            p {
+                font-size: 14px;
+                color: #666;
+                margin-bottom: 10px;
+            }
+
+            .others {
+                margin-bottom: 10px;
+
+                .auth {
+                    display: inline-block;
+                    width: 34px;
+                    margin-right: 20px;
+                    height: 34px;
+                    vertical-align: top;
+
+                    .icon {
+                        width: 34px;
+                        height: 34px;
+                    }
+
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+
+
+
+
+        }
+
+    }
+
+
+}

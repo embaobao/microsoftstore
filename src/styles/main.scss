@@ -32,6 +32,11 @@ button {
 }
 
 
+img {
+    border: none;
+    display: block;
+}
+//公共头部样式
 .globalHeader {
     font-family: "Microsoft YaHei", "Hiragino Sans GB";
     position: relative;
@@ -494,13 +499,8 @@ button {
 
 }
 
-img {
-    border: none;
-    display: block;
-}
 
-
-
+//首页内容样式
 .msStroreHome {
 
     // 轮播图
@@ -1148,7 +1148,7 @@ img {
 
 
 
-
+// 公共尾部样式
 .globalFooter {
 
 
@@ -1431,3 +1431,8 @@ img {
 
 
 }
+
+
+
+
+

@@ -1,0 +1,180 @@
+{
+    "recomendGoods":
+    [{
+        "id": 5982311641,
+        "title": "Surface Pro 6",
+        "href": "/surface/surface-pro/p/mic2539",
+        "img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017Reference-00?context=bWFzdGVyfGltYWdlc3w1NDUwMnxpbWFnZS9wbmd8aW1hZ2VzL2g0Zi9oMmMvMTAxMzE1NjMxMTg2MjIucG5nfDk0NTliZjg4ZTliYzM4NDVkM2UxOWU2MTY0OTQ0MWVlYWQ1OWQ2ZWQ5ZWZkOWU4ZjU1Y2E3YjhjODQ2NzdjMjc",
+        "name": "Surface Pro 6",
+        "desc": "酷睿 i5 8GB 256GB",
+        "price": "¥ 8,958"
+    }, {
+        "id": 1784740771,
+        "title": "认证翻新 Surface Go",
+        "href": "/refurbishedsurface/certified-refurbished-surface-go/p/mic2585",
+        "img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017Reference-01?context=bWFzdGVyfGltYWdlc3w0NjQ2NnxpbWFnZS9wbmd8aW1hZ2VzL2gxNi9oOTQvMTAxNDE5NzM5NzA5NzQucG5nfDQwZTRjMzQ4YWVhZWY1MzVkYzc1NjdiNjQ1NDQ4NzA2NTlkMWZlYThhYzUyZDFlZjc2YzA4NDJhN2FkMjVjMDc",
+        "name": "微软认证翻新 Surface Go",
+        "desc": "英特尔 4415Y 4GB 64GB",
+        "price": "¥ 2,376"
+    }, {
+        "id": 17337159151,
+        "title": "Surface Laptop 2",
+        "href": "/surface/surface-laptop/p/mic2549",
+        "img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017Reference-02?context=bWFzdGVyfGltYWdlc3w2OTYyOHxpbWFnZS9wbmd8aW1hZ2VzL2gxNC9oZmQvMTAxMzE1NjMxODQxNTgucG5nfGI0Yzg2ZTEzNTI1Y2VmYjQ4ZDhmNzNlZmJjZDg4NTY5ZmVjODM5MjlhMGZkNGE1NDQ4MDNjZmY5YzFjZDY2MjM",
+        "name": "Surface Laptop 2",
+        "desc": "酷睿 i5 8GB 256GB",
+        "price": "¥ 9,728"
+    }, {
+        "id": 17688041341,
+        "title": "Surface Book 2",
+        "href": "/surface/surface-book-2/p/mic2259",
+        "img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017Reference-03?context=bWFzdGVyfGltYWdlc3wxMjE1NDd8aW1hZ2UvcG5nfGltYWdlcy9oY2MvaDRjLzEwMTMxNTYzMjE2OTI2LnBuZ3w0OWFmNTcwNzUyMWRlMTYyOTY0Mjk3YzhiMTEwOWVhZjY3NWQwYTgyYmRhNzViZWEyMmQ1YzI5YjE5OTE4ZjZi",
+        "name": "Surface Book 2",
+        "desc": "13.5 英寸酷睿 i7 256GB",
+        "price": "¥ 16,068"
+    }, {
+        "id": 5295924611,
+        "title": "微软 HoloLens 2",
+        "href": "https://www.microsoft.com/zh-cn/hololens",
+        "img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017Reference-04?context=bWFzdGVyfGltYWdlc3w1NDgwMHxpbWFnZS9wbmd8aW1hZ2VzL2g1Yi9oNzYvMTAxMzE1NjMyNDk2OTQucG5nfDRmMmVhMzZjNDM3YTc2MDRhOTY3YmVkOGNjYWFkM2UwYjViZWE4MzY3NGRkMzZjMTg5OTBjZjRjYzkyM2Q5MjA",
+        "name": "微软 HoloLens 2",
+        "desc": "混合现实商用就绪",
+        "price": ""
+    }]
+    ,
+    "surfaceChanels": [{
+        "name": "guide",
+        "id": 9276212411,
+        "title": "查看更多>Surface",
+        "href": "https://www.microsoftstore.com.cn/c/surface",
+        "desc": "",
+        "price": ""
+    }, {
+        "id": 15878825841,
+        "title": "Surface Pro 6",
+        "href": "https://www.microsoftstore.com.cn/surface/surface-pro/p/mic2537",
+        "img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductSurface-01?context=bWFzdGVyfGltYWdlc3wxMDEyMjl8aW1hZ2UvcG5nfGltYWdlcy9oMjAvaDhjLzEwMTMxNTYzMjgyNDYyLnBuZ3xiYzczOTM0ZjI4ODc4ZGVmNGJkYzBjM2E3OWI2MDM5OTkwYmY4YWUwYTViZDJmZmZiMWE3ODljNjAwM2NmZmU0",
+        "name": "Surface Pro 6",
+        "desc": "随心所欲，百变菁英",
+        "price": "¥ 7,008"
+    }, {
+        "id": 20363471071,
+        "title": "Surface Go",
+        "href": "https://www.microsoftstore.com.cn/surface/surface-go/p/mic2527",
+        "img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductSurface-02?context=bWFzdGVyfGltYWdlc3w1MjI4MHxpbWFnZS9wbmd8aW1hZ2VzL2hkMi9oMTUvMTAxMzE1NjMzMTUyMzAucG5nfGExNjlhOTE1MjY3OTE2ZDRiMjgyODkxNzE3ZTEzNTkwZmI3Zjc2NDhlNzc4MDMzOWU1NzBjMWMwODFhNDZkNmE",
+        "name": "Surface Go",
+        "desc": "赋予便携新能量",
+        "price": "¥ 2,908"
+    }, {
+        "id": 11905566371,
+        "title": "Surface Studio 2",
+        "href": "https://www.microsoftstore.com.cn/surface/surface-studio-2/p/mic2458",
+        "img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductSurface-03?context=bWFzdGVyfGltYWdlc3wyMDY2MTF8aW1hZ2UvcG5nfGltYWdlcy9oYzAvaDAyLzEwMTMxNTYzMzQ3OTk4LnBuZ3wzN2E5YTc1NGU1MGE4YjgxODk2ZWZlNjAzMjA3MDEyODNmZDRkN2NhNWQ3NjA1ZjNlZGZiZmFiMTdlNDA5MWE3",
+        "name": "Surface Studio 2",
+        "desc": "超越你对创意工作室的想象",
+        "price": "¥ 29,108"
+    }]
+
+    ,
+    "officeChanels": [{
+        "name": "guide",
+        "id": 11284785581,
+        "title": "查看更多>Office",
+        "href": "https://www.microsoftstore.com.cn/c/office",
+        "desc": "",
+        "price": ""
+    }, {
+        "id": 9903886541,
+        "title": "Office 365 个人版",
+        "href": "https://www.microsoftstore.com.cn/office/office-365-personal/p/qq2-00009",
+        "img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductOffice-02?context=bWFzdGVyfGltYWdlc3wxMDY0NnxpbWFnZS9wbmd8aW1hZ2VzL2g0OC9oM2EvMTAwODgxMjY2NDQyNTQucG5nfGNiMjJjNDJiNTlmZmU2YzdlZmNkODU2Yzg0OGQzMmQ3ZWNjNmQzM2Q0MDUxZGZiNWY0ZjMyNzAwMzU0ZjYyNzI",
+        "name": "Office 365 个人版",
+        "desc": "可在多部设备上安装，享持续更新",
+        "price": "¥ 398"
+    }, {
+        "id": 9938479751,
+        "title": "Office 365 家庭版",
+        "href": "https://www.microsoftstore.com.cn/office/office-365-personal/p/6gq-00089",
+        "img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductOffice-02?context=bWFzdGVyfGltYWdlc3wxMTU0NXxpbWFnZS9wbmd8aW1hZ2VzL2hlMy9oYmEvMTAwODgxMjY2NzcwMjIucG5nfDFkNGUyNmIzZGJmNmIxYjAyOTBjZmI3YmU4Zjg4YTEzMjA0YWE3NWRmNWFlMDMyY2I1MGZjZTlmMzllNjA5Yzg",
+        "name": "Office 365 家庭版",
+        "desc": "可供多达6位用户分享，享持续更新",
+        "price": "¥ 498"
+    }, {
+        "id": 5784621401,
+        "title": "Office家庭和学生版2019",
+        "href": "https://www.microsoftstore.com.cn/office/office-home-student-2019/p/79g-05015",
+        "img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductOffice-03?context=bWFzdGVyfGltYWdlc3wzODUyMnxpbWFnZS9wbmd8aW1hZ2VzL2g0Ny9oNTIvMTAwODgxMjY3MDk3OTAucG5nfDg0YTRlMjY4Mjk2MjkxNDAxMDg4NWQ4NDIzM2Y3MzdiMWQyNzg5MmM5YWQwMjBkOTkzMDUwZjRhNWFhMGVlYTg",
+        "name": "Office 家庭和学生版 2019",
+        "desc": "2019 版经典应用，一次购买，永久使用",
+        "price": "¥ 748"
+    }]
+
+    , 
+    "xboxChanels": [{
+        "name": "guide",
+        "id": 2895927611,
+        "title": "查看更多>Xbox",
+        "href": "https://www.microsoftstore.com.cn/c/xbox",
+        "desc": "",
+        "price": ""
+    }, {
+        "id": 13133446331,
+        "title": "Xbox One X",
+        "href": "https://www.microsoftstore.com.cn/xbox/xbox-one-x/p/mic2526",
+        "img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductXbox-01?context=bWFzdGVyfGltYWdlc3w5MTU1MHxpbWFnZS9wbmd8aW1hZ2VzL2g2Yy9oNjMvMTAxMTAwNjgwOTcwNTQucG5nfDg3MjQ0NDE3NjI1YjI2NDE5NjZmYjE1MjNjMGE1MGJlMmI1YzMzNTkwMTFhNmJiNDI2NTNkMjUwYjMwMTVkNWU",
+        "name": "Xbox One X 1TB 渐变金特别版",
+        "desc": "真 4K 60 帧高清，感受真实的力量",
+        "price": "¥ 3,699"
+    }, {
+        "id": 13133446281,
+        "title": "Xbox One S",
+        "href": "https://www.microsoftstore.com.cn/xbox/xbox-one-s/p/mic2378",
+        "img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductXbox-02?context=bWFzdGVyfGltYWdlc3wxNzE5Nzd8aW1hZ2UvcG5nfGltYWdlcy9oM2UvaGY4LzEwMTE3MDQ3MzIwNjA2LnBuZ3w2ZTU5N2M2MjI1ZTU2NDljNzdmZDViZDRlOWFlMWJhNDg1ZTY2MjI4MmI0ZjkxNGU4NjM0ZWZkN2E1N2VmOTMz",
+        "name": "Xbox One S 1TB 动作冒险套装",
+        "desc": "内含《核心重铸》等 5 款游戏",
+        "price": "¥ 2,199"
+    }, {
+        "id": 5444544211,
+        "title": "Xbox 无线控制器",
+        "href": "https://www.microsoftstore.com.cn/accessories/xbox-wirelesscontroller/p/mic2216",
+        "img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductXbox-03?context=bWFzdGVyfGltYWdlc3wxNjMxNDl8aW1hZ2UvcG5nfGltYWdlcy9oYmIvaGEwLzEwMTI0Mjg0MTY2MTc0LnBuZ3wyMTM2N2E2Zjk2MjRjN2FhMjU2NGI2N2EwM2M5MmUwNGE5YzI3ZDNiZTgwYjBlNzU5M2VjM2Q4YTNhNzczYWQ4",
+        "name": "Xbox 无线控制器",
+        "desc": "个性外观，难忘触感",
+        "price": "¥ 359"
+    }]
+
+
+    ,
+    "hard": [{
+        "name": "guide",
+        "id": 10466817711,
+        "title": "查看更多>电脑与配件",
+        "href": "https://www.microsoftstore.com.cn/c/accessories",
+        "desc": "",
+        "price": ""
+    }, {
+        "id": 1115282321,
+        "title": "Azure Kinect DK",
+        "href": "https://www.microsoftstore.com.cn/vr-and-mr/azure-kinect-dk/p/mic2574",
+        "img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductComputer-01?context=bWFzdGVyfGltYWdlc3w5ODA0NnxpbWFnZS9wbmd8aW1hZ2VzL2gyZi9oOTIvMTAwODgxMjY0ODA0MTQucG5nfDJiZTZhZjQ5ZjE2NTY0YThhN2JkM2Q2ODYxODA3NTA3ZjEzZjk5NWNkNDg1MGVlYzRkMWY1YjA0NTA5NGYxMmM",
+        "name": "Azure Kinect DK",
+        "desc": "用于构建高级计算机视觉和语音模型的开发工具包",
+        "price": "¥ 2,988"
+    }, {
+        "id": 7926388151,
+        "title": "微软 Sculpt 无线便携鼠标",
+        "href": "https://www.microsoftstore.com.cn/accessories/ms-sculpt-mobile-mouse/p/43u-00034",
+        "img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductComputer-02?context=bWFzdGVyfGltYWdlc3wxMTQ2OTB8aW1hZ2UvcG5nfGltYWdlcy9oZGQvaGYxLzEwMDg4MTI2NTc4NzE4LnBuZ3w5NzUwNzAwMWE4NmU1ZWM2OWNjNTQ0M2E4MjFhZDE1MDk3ODEwZWI2ZWQ4YjhiMDlhODJhNGVjOWY1NWU0N2Zm",
+        "name": "微软 Sculpt 无线便携鼠标",
+        "desc": "Windows 按钮可快速查看“开始”菜单，蓝影追踪技术，适用于多种表面",
+        "price": "¥ 89"
+    }, {
+        "id": 3322071281,
+        "title": "微软精准鼠标",
+        "href": "https://www.microsoftstore.com.cn/accessories/microsoft-precision-mouse/p/mic2399",
+        "img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductComputer-03?context=bWFzdGVyfGltYWdlc3w3NTg1MXxpbWFnZS9wbmd8aW1hZ2VzL2g4YS9oZDAvMTAwODgxMjY2MTE0ODYucG5nfDJiNjY5ZTViZDc3Yzk0N2Y1MjdjOGYxZjFjMzAzMzk2MjJhM2Q4ZjBjZmEzNWQyMDRlOWRlMjdmYTU3YjNkZjQ",
+        "name": "微软精准鼠标",
+        "desc": "支持 USB 和蓝牙两种连接方式，侧键可自定义，控制更精准",
+        "price": "¥ 699"
+    }]
+}

@@ -13,6 +13,10 @@ module.exports.path = {
     html: {
         src: "src/**/*.html",
         dest: "webroot/"
+    },
+    json: {
+        src: "src/data/*.json",
+        dest: "webroot/"
     }
 }
 
@@ -49,6 +53,13 @@ module.exports.serverConfig = {
             changeOrigin: true,
             pathRewrite: {
                 "^/baidu": ""
+            }
+        },
+        "ms": {
+            target: "https://www.microsoftstore.com.cn/getTopGamesData",
+            changeOrigin: true,
+            pathRewrite: {
+                "^/": ""
             }
         }
     }

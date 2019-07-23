@@ -1,0 +1,84 @@
+ <!-- 轮播图 -->
+
+ <div class="banner ">
+
+     <div class="slider-container ">
+
+
+
+         <div class="swiper-container">
+             <div class="swiper-wrapper">
+
+                 <div class="swiper-slide">
+
+                     <img src="https://imgazure.microsoftstore.com.cn/medias/PadHomePage2019CommonBanner-Media-03?context=bWFzdGVyfGltYWdlc3wyMTA4M3xpbWFnZS9qcGVnfGltYWdlcy9oZGMvaGQwLzEwMTQzNDc3Mzk5NTgyLmpwZ3wyZTg0MjAyNTlkNTU3ZTg0NDYxMDdkODdhNmQwZDkxMjA1NzM1MTQ4ZGVhMTBkYzZiZDk3OTMzZDE3MTQxZGU2"
+                         alt="">
+                 </div>
+                 <div class="swiper-slide">
+
+                     <img src="https://imgazure.microsoftstore.com.cn/medias/HomePage2019CommonBanner-Media-04?context=bWFzdGVyfGltYWdlc3w5MTg2MnxpbWFnZS9qcGVnfGltYWdlcy9oNDUvaGVhLzEwMTQzNDc3MTA0NjcwLmpwZ3xhNjMzYzhjNWE1ZWMxZTNlNTI2MWUzZTM2YjFlYzlhNzkxMDZkMThkMDM1YzhmMGNhMDBkZDc2Yjg5Zjc2Mjlj"
+                         alt="">
+                 </div>
+                 <div class="swiper-slide">
+                     <img src="https://www.microsoftstore.com.cn/medias/PadHomePage2019CommonBanner-Media-01?context=bWFzdGVyfGltYWdlc3wzNTI2MHxpbWFnZS9qcGVnfGltYWdlcy9oNTgvaDRmLzEwMTQzNDc3MzM0MDQ2LmpwZ3xjYjdmZTM1YjE5Nzk2YTdmYTIzYWM0OTVlMGI4Y2VlOTU4ZDUxNTYwMzc0ZmJiYWJjYWIxMjk1NWQyMjVmMWI1"
+                         alt="">
+                 </div>
+                 <!-- 
+                        <div class="swiper-slide">
+                            <img src="https://imgazure.microsoftstore.com.cn/medias/MobileHomePage2019CommonBanner-Media-02?context=bWFzdGVyfGltYWdlc3w0MTA2M3xpbWFnZS9qcGVnfGltYWdlcy9oODgvaGFkLzEwMTQzNDc3NjYxNzI2LmpwZ3w1YWE5ZjZkZGY1YWQxZTMzN2QxZThmNDkwZTJhOTM0OTY4NWIzODM5ODgxOTU3NGUxZjI4ZGVlNjU2ZmFjNTI4"
+                                alt="">
+                        </div> -->
+
+             </div>
+
+             <div class="swiper-pagination"></div>
+
+             <div class="swiper-button-next ward backward"></div>
+             <div class="swiper-button-prev ward forward"></div>
+         </div>
+
+         <script>
+             var swiper = new Swiper('.swiper-container', {
+                 spaceBetween: 30,
+                 centeredSlides: true,
+                 loop: true,
+                 autoplay: {
+                     delay: 1500,
+                     disableOnInteraction: false,
+                 },
+                 pagination: {
+                     el: '.swiper-pagination',
+                     clickable: true,
+                 },
+                 navigation: {
+                     nextEl: '.swiper-button-next',
+                     prevEl: '.swiper-button-prev',
+                 },
+             });
+         </script>
+
+
+
+         <!--   轮播图 自设计插件 viewpager 可能有BUG
+                <div class="viewpager">
+                    <div class="pager ">
+                        <div class="view bg1">
+
+                            <img src="https://imgazure.microsoftstore.com.cn/medias/HomePage2019CommonBanner-Media-05?context=bWFzdGVyfGltYWdlc3wxNTMyODF8aW1hZ2UvanBlZ3xpbWFnZXMvaDAyL2g4NC8xMDE0MzQ3NzIzNTc0Mi5qcGd8NWU1ZTRhNzFiMzRmMGQ0YTRmYjZjMGVmMGU0YmIwNmNmMjU3NGJhZDY3OGUzNjkwNjQ5OWVjODIyN2U2ZTAyYw"
+                                alt="">
+                        </div> -->
+         <!-- <div class="view bg2">2</div>
+                        <div class="view bg3">3</div>
+                        <div class="view bg4">4</div> -->
+         <!-- </div>
+                    <div class="button-next"></div>
+                    <div class="button-prev"></div>
+                    <div class="pagination">
+                    </div> -->
+
+
+
+
+     </div>
+
+ </div>
