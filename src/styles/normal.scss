@@ -1,0 +1,189 @@
+@import "./_color";
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+fieldset,
+legend,
+option,
+th,
+td,
+th,
+input,
+hr,
+button,
+ol,
+li,
+ul,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+/*清除默认间距 性能高与 *{margin: 0;padding: 0;  }*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+    font-weight: normal;
+}
+
+/* 清除加粗效果 */
+li {
+    list-style: none;
+}
+
+/*清除列表图标*/
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+/*清除a标签下划线 字体颜色*/
+i,
+em {
+    font-style: normal;
+}
+
+/* 清除倾斜效果 */
+img {
+    border: none;
+    display: block;
+}
+
+/*清除IE A 标签下图片有默认边框 和转化元素类型清除图片之间的间隙*/
+body {
+    font-family: "微软雅黑'";
+    // font-size: 14px;
+    // color: #666;
+    // line-height: 1em;
+}
+
+/*清除有默认行高 字体 字体颜色*/
+table {
+    border-spacing: 0px;
+    /*调整相同的单元格之间的边距*/
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+/* 标签下划线 */
+input {
+    outline: none;
+}
+
+
+
+
+
+/* 清除input 浏览器的有的蓝色有边框的效果 */
+.bg0 {
+    background-color: $color-blue;
+}
+
+.bg1 {
+    background-color: $color-red;
+
+
+}
+
+.bg2 {
+    background-color: $color-indigo;
+
+}
+
+.bg3 {
+    background-color: $color-pink;
+
+}
+
+.bg4 {
+    background-color: $color-purple;
+
+
+
+}
+
+.bg5 {
+    background-color: #22e;
+
+}
+
+
+
+.bg6 {
+    background-color: $color-orange;
+}
+
+.bg7 {
+    background-color: $color-yellow;
+
+
+
+}
+
+.bg8 {
+    background-color: $color-green;
+}
+
+.bg9 {
+    background-color: $color-teal;
+}
+
+.bg10 {
+    background-color: $color-cyan;
+}
+
+.bg11 {
+    background-color: #ffcc01;
+}
+
+.bg12 {
+    background-color: #99ffff;
+}
+
+.center {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.l {
+    float: left;
+}
+
+.r {
+    float: right;
+}
+
+.middle:after {
+    content: "EMB";
+    height: 100%;
+    width: 0px;
+    visibility: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hide {
+    display: none;
+}
+
+.margin-0 {
+    margin: 0px !important;
+}
+
+.clear {
+    clear: both;
+}

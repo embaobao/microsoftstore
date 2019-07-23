@@ -1,0 +1,38 @@
+{
+  "name": "nodetest",
+  "version": "0.0.1",
+  "description": "node 环境搭建与学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "test"
+  ],
+  "author": "emb",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-convert-encoding": "^2.0.1",
+    "gulp-file-include": "^2.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-less": "^4.0.1",
+    "gulp-load-plugins": "^2.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-utf8-convert": "0.0.7",
+    "http-proxy-middleware": "^0.19.1",
+    "jshint": "^2.10.2",
+    "node-sass": "^4.12.0"
+  },
+  "dependencies": {}
+}
