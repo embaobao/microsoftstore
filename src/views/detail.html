@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="gbk">
+    <meta name="referrer" content="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品详情</title>
+    <link rel="stylesheet" href="../styles/normal.css">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+@@include("./detail/_style.htm")
+
+<body>
+    <!-- 公共头部引入 -->
+    @@include("./share/_blobalHeader.htm")
+
+    <!-- 导航菜单 -->
+    <div class="Global_Crumbs">
+        <div class="Global_CrumbsContent">
+            <a href="https://www.microsoftstore.com.cn" title="微软官方商城 导航栏">微软官方商城</a>
+            >
+            <a href="https://www.microsoftstore.com.cn/c/office"> Office</a>
+            >
+            <a data-m="{&quot;cN&quot;:&quot;Office 365 订阅 - 1年新订或续订&quot;,&quot;id&quot;:&quot;1108435701&quot;}">Office
+                365 订阅 - 1年新订或续订</a>
+            <div class="Global_CrumbsShare">
+                <button>分享 :&nbsp;<img
+                        src="https://imgazure.microsoftstore.com.cn/_ui/desktop/theme-light/img/sina_logo.png"
+                        alt="微博图标"></button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 内容区 -->
+    @@ include("./detail/_content.htm")
+
+
+
+    <!-- 公共尾部引入 -->
+    @@include("./share/_blobalFooter.htm")
+    @@include("./share/_foot.htm",{
+    "foot":""
+    })
+</body>
+
+</html>

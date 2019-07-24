@@ -1,3 +1,30 @@
-@@include("./share/_laout.htm",{
-"container":"<h1>购物车来了</h1>"
-})
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="gbk">
+    <meta name="referrer" content="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../styles/normal.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/shopcart.css">
+</head>
+
+<body>
+    @@include("./share/_blobalHeader.htm")
+
+    <!-- 内容区 -->
+    @@include("./shopcart/_content.htm")
+
+
+    
+    @@include("./share/_blobalFooter.htm")
+
+    @@include("./share/_foot.htm",{
+    "foot":""
+    })
+</body>
+
+</html>

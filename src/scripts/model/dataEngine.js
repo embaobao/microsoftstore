@@ -21,15 +21,24 @@ $.extend(
                     });
                 } else {
                     $.ajax(conf.data[dataName].url).then((res) => {
+
                         resolve(res);
                     });
                 };
             }).then((res) => {
+                let datacachs = [];
+                for (const key in res) {
+                    let item = res[key];
+                    datacachs = datacachs.concat(item);
+                }
+                // console.log(datacachs);
+                new Data().db("__cach", datacachs);
                 let datapath = conf.data[dataName].datapath ? conf.data[dataName].datapath : [];
                 datapath.forEach(attr => {
                     res = res[attr] ? res[attr] : res;
                     this.res = res;
                 })
+
                 return res
             });
         },
@@ -42,7 +51,6 @@ $.extend(
             } else {
                 if (val instanceof Array) {
                     localStorage.setItem(key, JSON.stringify(val));
-
                 } else if (val && typeof val === "object") {
                     v.push(val)
                     v = JSON.stringify(v);
@@ -50,9 +58,16 @@ $.extend(
                 }
 
             }
+        },
+        cach: function (fn) {
+            let cachs = this.db("__cach");
+            if (cachs && cachs instanceof Array) {
+                fn ? cachs.forEach(fn):"";
+            } else {
+                return false;
+            }
+            return cachs;
         }
-
-
     }
 )
 

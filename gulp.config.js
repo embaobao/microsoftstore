@@ -17,6 +17,9 @@ module.exports.path = {
     json: {
         src: "src/data/*.json",
         dest: "webroot/"
+    },
+    template: {
+        src: "src/**/*.htm"
     }
 }
 

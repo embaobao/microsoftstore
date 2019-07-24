@@ -84,8 +84,8 @@ function watch() {
     gulp.watch(path.script.src, scripts);
     //查看 html 源文件的变化 htmls
     gulp.watch(path.html.src, htmls);
-
     gulp.watch(path.json.src, jsons);
+    gulp.watch(path.template.src, htmls);
 }
 
 function setup() {

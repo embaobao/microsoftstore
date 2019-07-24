@@ -1,43 +1,47 @@
-body {
-    font-family: "微软雅黑'";
-    font-size: 14px;
-    color: #666;
-    line-height: 1em;
-}
 
-
-button {
-    -webkit-appearance: button;
-    -webkit-writing-mode: horizontal-tb !important;
-    text-rendering: auto;
-    color: buttontext;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: center;
-    align-items: flex-start;
-    cursor: default;
-    background-color: buttonface;
-    box-sizing: border-box;
-    margin: 0em;
-    font: 400 13.3333px Arial;
-    padding: 1px 6px;
-    border-width: 2px;
-    border-style: outset;
-    border-color: buttonface;
-    border-image: initial;
-}
-
-
-img {
-    border: none;
-    display: block;
-}
 //公共头部样式
 .globalHeader {
+
+    body {
+        font-family: "微软雅黑'";
+        font-size: 14px;
+        color: #666;
+        line-height: 1em;
+    }
+
+
+    button {
+        -webkit-appearance: button;
+        -webkit-writing-mode: horizontal-tb !important;
+        text-rendering: auto;
+        color: buttontext;
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        display: inline-block;
+        text-align: center;
+        align-items: flex-start;
+        cursor: default;
+        background-color: buttonface;
+        box-sizing: border-box;
+        margin: 0em;
+        font: 400 13.3333px Arial;
+        padding: 1px 6px;
+        border-width: 2px;
+        border-style: outset;
+        border-color: buttonface;
+        border-image: initial;
+    }
+
+
+    img {
+        border: none;
+        display: block;
+    }
+
+
     font-family: "Microsoft YaHei", "Hiragino Sans GB";
     position: relative;
     z-index: 9000;
@@ -967,6 +971,11 @@ img {
                     line-height: 1.5em;
                     height: auto;
                     color: #333;
+                }
+
+                 &.guide .viewmore {
+                    font-size: 14px;
+                    color: #5E5E5E;
                 }
 
                 &:after {
