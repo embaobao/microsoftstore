@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .globalHeader {
-  font-family: "Microsoft YaHei", "Hiragino Sans GB";
+  font-family: "Microsoft YaHei", "Hiragino Sans GB";
   position: relative;
   z-index: 9000; }
   .globalHeader body {
@@ -8,6 +8,8 @@
     font-size: 14px;
     color: #666;
     line-height: 1em; }
+  .globalHeader a.nounderline:hover {
+    text-decoration: none; }
   .globalHeader button {
     -webkit-appearance: button;
     -webkit-writing-mode: horizontal-tb !important;
@@ -141,6 +143,10 @@
           font-size: 14px;
           vertical-align: bottom;
           vertical-align: top; }
+          .globalHeader .nav .nav-container .menu-more .login-box.active .btn {
+            background-color: #fff;
+            border: 1px solid #e0e0e0;
+            border-bottom-color: rgba(0, 0, 0, 0); }
           .globalHeader .nav .nav-container .menu-more .login-box .btn {
             display: inline-block;
             height: 45px;
@@ -911,3 +917,50 @@
         height: 16px;
         display: inline-block;
         vertical-align: -3px; }
+
+.Global_ScrollToTop {
+  z-index: 8999;
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  right: 0;
+  bottom: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: none; }
+  .Global_ScrollToTop img {
+    width: 100%;
+    height: 100%; }
+
+.subscription_btn {
+  position: fixed;
+  display: block;
+  width: 35px;
+  height: 39px;
+  background-size: cover;
+  right: 0;
+  bottom: 86px;
+  z-index: 8999;
+  border: none; }
+  .subscription_btn img {
+    width: 100%;
+    height: 100%; }
+
+.servers_btn {
+  position: fixed;
+  display: block;
+  width: 35px;
+  height: 113px;
+  background-size: cover;
+  right: 0;
+  top: 50%;
+  margin-top: -66px;
+  border: none;
+  cursor: pointer;
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0); }
+  .servers_btn img {
+    width: 100%;
+    height: 100%; }

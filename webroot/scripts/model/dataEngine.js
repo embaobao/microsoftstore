@@ -62,11 +62,23 @@ $.extend(
         cach: function (fn) {
             let cachs = this.db("__cach");
             if (cachs && cachs instanceof Array) {
-                fn ? cachs.forEach(fn):"";
+                fn ? cachs.forEach(fn) : "";
             } else {
                 return false;
             }
             return cachs;
+        },
+        user: function (user) {
+            if (user) {
+                return this.db("__user", [user]);
+            }
+            user = this.db("__user")[0];
+            if (user) {
+                return user;
+            } else {
+                return false;
+            }
+
         }
     }
 )

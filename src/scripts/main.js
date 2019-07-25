@@ -1,6 +1,7 @@
 import homeview from "./home.js"
 import detailview from "./detail.js"
 import shopcartview from "./shopcart.js"
+import signinview from "./login.js"
 class Main {
     constructor() {
         // jquery 检测
@@ -10,9 +11,11 @@ class Main {
 
     initialize() {
         let nowPath = window.location.pathname;
-        let isIndex = nowPath.indexOf("index.html") > 0;
+        let isIndex = nowPath.indexOf("index.html") > 0 || nowPath === "/views/";
         let isDetial = nowPath.indexOf("detail.html") > 0;
         let isShopCar = nowPath.indexOf("shopcart.html") > 0;
+        let isLogin = nowPath.indexOf("signin.html") > 0;
+
         if (isIndex) {
             homeview();
         }
@@ -22,6 +25,10 @@ class Main {
         if (isShopCar) {
             shopcartview();
         }
+        if (isLogin) {
+            signinview();
+        }
+
     }
 
 }

