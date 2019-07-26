@@ -341,6 +341,9 @@
         background-color: #ffffff;
         border-bottom: 1px solid rgba(0, 0, 0, 0.2);
         font-size: 0;
+        position: sticky;
+        top: 0px;
+        z-index: 8000;
 
         // 内容容器
         .container {
@@ -521,6 +524,12 @@
 
 //首页内容样式
 .msStroreHome {
+
+    img.lazyloaded {
+        width: 254px;
+        height: 156px;
+        opacity: 0.1;
+    }
 
     // 轮播图
     .banner {

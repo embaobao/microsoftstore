@@ -3,11 +3,11 @@
  */
 module.exports.path = {
     style: {
-        src: ["src/styles/**/*.css", "src/styles/**/*.sass", "src/styles/**/*.scss"],
+        src: ["src/styles/**/*.css", "src/styles/**/*.sass", "src/styles/**/*.scss", "src/plugins/**/*.css", "src/plugins/**/*.scss"],
         dest: "webroot/styles/"
     },
     script: {
-        src: "src/scripts/**/*.js",
+        src: ["src/scripts/**/*.js", "src/plugins/**/*.js"],
         dest: "webroot/scripts/"
     },
     html: {

@@ -215,7 +215,10 @@
     line-height: 70px;
     background-color: #ffffff;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    font-size: 0; }
+    font-size: 0;
+    position: sticky;
+    top: 0px;
+    z-index: 8000; }
     .globalHeader .navStore .container {
       width: 90%;
       max-width: 1180px;
@@ -326,6 +329,11 @@
           color: #0067b8;
           vertical-align: middle;
           padding: 0 12px; }
+
+.msStroreHome img.lazyloaded {
+  width: 254px;
+  height: 156px;
+  opacity: 0.1; }
 
 .msStroreHome .banner {
   position: relative;

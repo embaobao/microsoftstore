@@ -1,0 +1,94 @@
+@charset "UTF-8";
+.viewpager {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden; }
+
+.pager {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+/* // 单视图  slider */
+.view {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  text-align: center; }
+
+.view img {
+  width: 100%;
+  height: 100%; }
+
+.view-on {
+  z-index: 1; }
+
+.button-next,
+.button-prev {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  z-index: 999; }
+
+.button-next {
+  background: url(https://static.zcool.cn/git_z/z/widget/slider/images/svg/right_arrow.svg?v=2);
+  background-size: 100%;
+  background-position: center;
+  right: 0; }
+
+.button-prev {
+  background: url(https://static.zcool.cn/git_z/z/widget/slider/images/svg/left_arrow.svg?v=2);
+  background-size: 100%;
+  background-position: center;
+  left: 0; }
+
+/* // 页面指示器 容器 */
+.pagination {
+  -webkit-transition: .2s opacity;
+  -o-transition: .2s opacity;
+  transition: .2s opacity;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  position: absolute;
+  bottom: 15px;
+  text-align: center;
+  width: 100%;
+  font-size: 0;
+  z-index: 9999; }
+
+/* // 页面指示器 脉络 */
+.pagination-vein {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border: 1px solid #333333;
+  border-radius: 100%;
+  cursor: pointer;
+  margin: 0 5px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* // 页面指示器 脉络 触发效果 */
+.pagination-vein-active {
+  background-color: #333333;
+  pointer-events: none;
+  opacity: 1; }
+
+/* fade专用样式 */
+.viewpager.fade-mode .view {
+  position: absolute; }
+
+/* slide 专用样式 */
+.viewpager.slide-mode .pager {
+  display: flex; }
+
+.hide {
+  display: none !important; }
+
+.show {
+  display: block !important; }

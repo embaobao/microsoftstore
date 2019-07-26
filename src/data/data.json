@@ -1,4 +1,30 @@
 {
+    "navgoods": [{
+        "hot": "直降",
+        "id": 7768561011,
+        "title": "Surface",
+        "href": "https://www.microsoftstore.com.cn/surface/surface-pro/p/mic2532",
+        "img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017FourNav-Media-01?context=bWFzdGVyfGltYWdlc3wxNzk2M3xpbWFnZS9qcGVnfGltYWdlcy9oMzQvaDcxLzEwMTMxNTYzMDUzMDg2LmpwZ3xhNThlYjE3MGY3YWE0ZDJjNmRlOTM3ZjA0ZWRiNzVmMWQ4MTRlNmY2ZGE2NzJiMzIxYTY1MGFhNGE3ZDEyNTZj",
+        "name": "立即购买 >",
+        "desc": "Surface Pro（第五代）酷睿 m3 128GB 键盘盖套餐立省￥368",
+        "price": ""
+    }, {
+        "id": 16255037811,
+        "title": "Xbox",
+        "href": "https://www.microsoftstore.com.cn/xbox/xbox-one-x/p/mic2592",
+        "img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017FourNav-Media-02?context=bWFzdGVyfGltYWdlc3wyOTAzMXxpbWFnZS9qcGVnfGltYWdlcy9oY2EvaDk0LzEwMTQ1NDk1MjUzMDIyLmpwZ3wxYmNlZjRjMGY2ODc0YTJlMzc5ZmIwMTUwNGI5ZjcwOTE2ZjY0ZGIzMjA5M2I0MjNmNjBmYzcxMTUxNDg4MjRm",
+        "name": "立即购买 >",
+        "desc": "Xbox One X 1TB《极限竞速 7》套装，极速快感，劲畅体验",
+        "price": ""
+    }, {
+        "id": 11448293541,
+        "title": "Office 365",
+        "href": "https://www.microsoftstore.com.cn/office/office-365-personal/p/6gq-00089",
+        "img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017FourNav-Media-03?context=bWFzdGVyfGltYWdlc3w2MzcyfGltYWdlL2pwZWd8aW1hZ2VzL2gwYS9oOTUvMTAxMTAwNjc3MDM4MzguanBnfGQyOWZiNWRkOGI5NGEzNmNjMjQ5N2ZkMTYxZDhiNjlkYjc4YzZhMTdiMTRhNTkwNjI0YzA3N2E3YjUxNmJmYWY",
+        "name": "立即购买 >",
+        "desc": "全新升级：现支持多部 PC/Mac、平板和手机，家庭版多达6人共享",
+        "price": ""
+    }],
     "recomendGoods": [{
         "id": 5982311641,
         "title": "Surface Pro 6",
@@ -129,7 +155,7 @@
             "id": 13133446281,
             "title": "Xbox One S",
             "href": "https://www.microsoftstore.com.cn/xbox/xbox-one-s/p/mic2378",
-            "img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductXbox-02?context=bWFzdGVyfGltYWdlc3wxNzE5Nzd8aW1hZ2UvcG5nfGltYWdlcy9oM2UvaGY4LzEwMTE3MDQ3MzIwNjA2LnBuZ3w2ZTU5N2M2MjI1ZTU2NDljNzdmZDViZDRlOWFlMWJhNDg1ZTY2MjI4MmI0ZjkxNGU4NjM0ZWZkN2E1N2VmOTMz",
+            "img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductXbox-02?context=bWFzdGVyfGltYWdlc3w4MTk4M3xpbWFnZS9wbmd8aW1hZ2VzL2gyYy9oYWEvMTAxNDU0OTUyODU3OTAucG5nfGJmYjFhYmFhYmZlMGE1ZjcxMGI3MjJjZmZmZGIyMGMxZjljMDg0OGFmNzM0ZmNlYzg3YzQ0NjI4YzVlMjZiMWM",
             "name": "Xbox One S 1TB 动作冒险套装",
             "desc": "内含《核心重铸》等 5 款游戏",
             "price": "¥ 2,199"

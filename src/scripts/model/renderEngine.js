@@ -34,25 +34,28 @@ class RenderEngine {
                 this.wrapper = _(wrapper);
             }
 
+
         }
 
         return this.initailize(type, data);
 
     }
-    initailize(type, data) {
+
+
+
+    async initailize(type, data) {
         if (type) {
             // 如果数据存在
             if (data) {
                 this.render(data);
             } else {
                 // 不存在 获取配置数据
-                dao.done(type).then((result) => {
-                    this.data = result;
-                    this.render(result);
-                });
+                let res = await dao.done(type);
+                this.data = res;
+                this.render(res);
+                return this;
             }
-            return this;
-            // 如果类型不存在 
+            // 如果类型不存在
         } else {
             return this.templateEngine;
         }

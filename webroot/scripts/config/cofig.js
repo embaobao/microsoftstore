@@ -1,4 +1,29 @@
+// 资源连接配置
+let src = {
+    loadimg: `https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563244462837&di=d361b540ec57ea7c054a94e5a403b835&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20150605%2Fmp17826536_1433492197010_5.gif`
+}
+
+// 模板配置
 let template = {
+    navgoods: (item) => {
+        let hot = item.hot ? ` <div class="tag"><span style="background-color: #e71224">${item.hot}</span></div>` : "";
+
+        return `
+            <li data-id="${item.id}" data-name="${item.name}">
+                     <a href="#" title="${item.title}">
+                         <div class="img">
+                             <img data-src="${item.img}"
+                                 alt="${item.title}"
+                                  class="lazyloaded"
+                                 src="${src.loadimg}">
+                            ${hot}
+                         </div>
+                         <p>${item.desc}</p>
+                         <span class="more">${item.name}</span>
+                     </a>
+                 </li>
+            `
+    },
     channel: (item) => {
         if (item.name === "guide") {
             return `
@@ -17,8 +42,8 @@ let template = {
                                 <div class="img">
                                     <img data-src="${item.img}"
                                         alt="${item.title}"
-                                        class=" lazyloaded"
-                                        src="${item.img}">
+                                        class="lazyloaded"
+                                        src = "${src.loadimg}" >
                                 </div>
                                 <div class="desc">
                                     <h3 title="${item.title}">
@@ -35,31 +60,16 @@ let template = {
                             </a>
                         </li>
                     `
-        // ${item.id}  ${item.name} ${item.img}  ${item.title} ${item.desc} ${item.price}
-    }
-
-
-}
-
-
-
-export default {
-    data: {
-        recomend: {
-            url: "/data.json",
-            data: null,
-            datapath: ["recomendGoods"],
-            wrapper: "#recommend-list",
-            template: (item) => {
-
-                return `
+    },
+    recomend: (item) => {
+        return `
                 <li data-id="${item.id}" data-name="${item.name}">
                       <a class="img" href="./detail.html#${item.id}" title="${item.title}">
                           <div class="img">
                               <img data-src="${item.img}"
                                   alt="${item.title}" 
-                                  class=" lazyloaded"
-                                  src="${item.img}">
+                                  class="lazyloaded"
+                                  src = "${src.loadimg}" >
                           </div>
                           <div class="name">
                               <h4 title="Surface Pro 6">${item.name}</h4>
@@ -73,40 +83,9 @@ export default {
                       </a>
                   </li>
                 `
-            }
-        },
-        surface: {
-            url: "/data.json",
-            data: null,
-            datapath: ["surfaceChanels"],
-            wrapper: "#channel-surface",
-            template: template.channel
-        },
-        office: {
-            url: "/data.json",
-            data: null,
-            datapath: ["officeChanels"],
-            wrapper: "#channel-office",
-            template: template.channel
-        },
-        xbox: {
-            url: "/data.json",
-            data: null,
-            datapath: ["xboxChanels"],
-            wrapper: "#channel-xbox",
-            template: template.channel
-        },
-        hard: {
-            url: "/data.json",
-            data: null,
-            datapath: ["hard"],
-            wrapper: "#channel-hard",
-            template: template.channel
-        },
-        shopcart: {
-            wrapper: "#cartList",
-            template: item =>
-                `
+    },
+    shopcart: (item) => {
+        return `
                <div class="cart-item" data-id="${item.id}">
             <div class="clearfix cart-item-tray">
                 <div class="col-1">
@@ -175,6 +154,58 @@ export default {
                 </div>
             </div>
         </div> `
+    }
+}
+
+
+//导出数据配置
+export default {
+    data: {
+        navgoods: {
+            url: "/data.json",
+            data: null,
+            datapath: ["navgoods"],
+            wrapper: "#navGoods",
+            template: template.navgoods
+        },
+        recomend: {
+            url: "/data.json",
+            data: null,
+            datapath: ["recomendGoods"],
+            wrapper: "#recommend-list",
+            template: template.recomend
+        },
+        surface: {
+            url: "/data.json",
+            data: null,
+            datapath: ["surfaceChanels"],
+            wrapper: "#channel-surface",
+            template: template.channel
+        },
+        office: {
+            url: "/data.json",
+            data: null,
+            datapath: ["officeChanels"],
+            wrapper: "#channel-office",
+            template: template.channel
+        },
+        xbox: {
+            url: "/data.json",
+            data: null,
+            datapath: ["xboxChanels"],
+            wrapper: "#channel-xbox",
+            template: template.channel
+        },
+        hard: {
+            url: "/data.json",
+            data: null,
+            datapath: ["hard"],
+            wrapper: "#channel-hard",
+            template: template.channel
+        },
+        shopcart: {
+            wrapper: "#cartList",
+            template: template.shopcart
         }
 
     }

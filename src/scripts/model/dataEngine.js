@@ -21,7 +21,6 @@ $.extend(
                     });
                 } else {
                     $.ajax(conf.data[dataName].url).then((res) => {
-
                         resolve(res);
                     });
                 };

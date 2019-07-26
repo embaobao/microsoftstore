@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+
+    <title>
+        Microsoft 微软官网|微软官方商城</title>
+    <meta charset="utf-8">
+    <script src="../scripts/lib/jquery.js"></script>
+</head>
+
+
+<body>
+    <!-- class="recom" -->
+    <ul class="recom">
+        <li>
+            <a href="/surface/surface-pro/p/mic2532" title="Surface"
+                data-m="{&quot;cN&quot;:&quot;Surface&quot;,&quot;id&quot;:&quot;7768561011&quot;}">
+                <div class="img">
+                    <img data-src="https://imgazure.microsoftstore.com.cn/medias/HomePage2017FourNav-Media-01?context=bWFzdGVyfGltYWdlc3wxNzk2M3xpbWFnZS9qcGVnfGltYWdlcy9oMzQvaDcxLzEwMTMxNTYzMDUzMDg2LmpwZ3xhNThlYjE3MGY3YWE0ZDJjNmRlOTM3ZjA0ZWRiNzVmMWQ4MTRlNmY2ZGE2NzJiMzIxYTY1MGFhNGE3ZDEyNTZj"
+                        alt="Surface" class=" lazyloaded"
+                        src="https://imgazure.microsoftstore.com.cn/medias/HomePage2017FourNav-Media-01?context=bWFzdGVyfGltYWdlc3wxNzk2M3xpbWFnZS9qcGVnfGltYWdlcy9oMzQvaDcxLzEwMTMxNTYzMDUzMDg2LmpwZ3xhNThlYjE3MGY3YWE0ZDJjNmRlOTM3ZjA0ZWRiNzVmMWQ4MTRlNmY2ZGE2NzJiMzIxYTY1MGFhNGE3ZDEyNTZj">
+                    <div class="tag"><span style="background-color: #e71224">直降</span></div>
+                </div>
+                <p>Surface Pro（第五代）酷睿 m3 128GB 键盘盖套餐立省￥368</p>
+                <span class="more">立即购买 &gt;</span>
+            </a>
+        </li>
+        <li>
+            <a href="/xbox/xbox-one-x/p/mic2592" title="Xbox"
+                data-m="{&quot;cN&quot;:&quot;Xbox&quot;,&quot;id&quot;:&quot;-16255037811&quot;}">
+                <div class="img">
+                    <img data-src="https://imgazure.microsoftstore.com.cn/medias/HomePage2017FourNav-Media-02?context=bWFzdGVyfGltYWdlc3wyOTAzMXxpbWFnZS9qcGVnfGltYWdlcy9oY2EvaDk0LzEwMTQ1NDk1MjUzMDIyLmpwZ3wxYmNlZjRjMGY2ODc0YTJlMzc5ZmIwMTUwNGI5ZjcwOTE2ZjY0ZGIzMjA5M2I0MjNmNjBmYzcxMTUxNDg4MjRm"
+                        alt="Xbox" class=" lazyloaded"
+                        src="https://imgazure.microsoftstore.com.cn/medias/HomePage2017FourNav-Media-02?context=bWFzdGVyfGltYWdlc3wyOTAzMXxpbWFnZS9qcGVnfGltYWdlcy9oY2EvaDk0LzEwMTQ1NDk1MjUzMDIyLmpwZ3wxYmNlZjRjMGY2ODc0YTJlMzc5ZmIwMTUwNGI5ZjcwOTE2ZjY0ZGIzMjA5M2I0MjNmNjBmYzcxMTUxNDg4MjRm">
+                </div>
+                <p>Xbox One X 1TB《极限竞速 7》套装，极速快感，劲畅体验</p>
+                <span class="more">立即购买 &gt;</span>
+            </a>
+        </li>
+        <li>
+            <a href="/office/office-365-personal/p/6gq-00089" title="Office 365"
+                data-m="{&quot;cN&quot;:&quot;Office 365&quot;,&quot;id&quot;:&quot;-11448293541&quot;}">
+                <div class="img">
+                    <img data-src="https://imgazure.microsoftstore.com.cn/medias/HomePage2017FourNav-Media-03?context=bWFzdGVyfGltYWdlc3w2MzcyfGltYWdlL2pwZWd8aW1hZ2VzL2gwYS9oOTUvMTAxMTAwNjc3MDM4MzguanBnfGQyOWZiNWRkOGI5NGEzNmNjMjQ5N2ZkMTYxZDhiNjlkYjc4YzZhMTdiMTRhNTkwNjI0YzA3N2E3YjUxNmJmYWY"
+                        alt="Office 365" class=" lazyloaded"
+                        src="https://imgazure.microsoftstore.com.cn/medias/HomePage2017FourNav-Media-03?context=bWFzdGVyfGltYWdlc3w2MzcyfGltYWdlL2pwZWd8aW1hZ2VzL2gwYS9oOTUvMTAxMTAwNjc3MDM4MzguanBnfGQyOWZiNWRkOGI5NGEzNmNjMjQ5N2ZkMTYxZDhiNjlkYjc4YzZhMTdiMTRhNTkwNjI0YzA3N2E3YjUxNmJmYWY">
+                </div>
+                <p>全新升级：现支持多部 PC/Mac、平板和手机，家庭版多达6人共享</p>
+                <span class="more">立即购买 &gt;</span>
+            </a>
+        </li>
+    </ul>
+</body>
+
+</html>
+
+
+<script>
+    let recom = $(".recom li a");
+    let datalist = [];
+    $.each(recom, function (index, e) {
+
+        let obj = {};
+
+        if ($(e).parents().hasClass("guide")) {
+            obj.name = "guide"
+        }
+        let data = JSON.parse($(e).attr("data-m"))
+        obj.id = Math.abs(Number(data.id.trim()));
+        obj.title = data.cN.trim();
+        obj.href = "https://www.microsoftstore.com.cn" + $(e).attr("href");
+        obj.img = $(e).find("img").attr("data-src");
+        obj.name = $(e).find(".more").text().trim();"nav"; //$(e).find("").text().trim();
+
+        obj.desc = $(e).find("p").text().trim();
+        obj.price = "";
+        datalist.push(obj);
+        console.log(obj);
+    });
+    console.log(datalist);
+    console.log(JSON.stringify(datalist));
+</script>
